@@ -20,10 +20,11 @@ Polymorphism enables objects of different types to be treated as objects of a co
 
 * Run-time Polymorphism (Dynamic Polymorphism): Achieved through the destroyFish method overriding. Each subclass of Fish overrides the destroyFish method to provide its own implementation. When a fish is destroyed, the appropriate overridden method is called based on the type of fish. This allows for different behaviors (such as animations for burning and exploding fish) while using a common interface.
 
-# Additional Notes
--Fish are represented as squares in the game.
+# Animation
+Adding animations of burning and exploding fish to the destruction process improves the visual feedback and immersion of the game. When a burning fish is collected, it dynamically shows its fiery demise, making the gameplay more intense.
 
--Provided animations for burning and exploding fish have been integrated into the destruction process.
+# Additional Notes
+Regular Fishes are represented as yellow squares, exploding fishes as red triangles and burning fishes as green diamonds in the game.
 
 
 # YOUTUBE
